@@ -2,7 +2,7 @@ let color = document.getElementById('color');
 let createBtn = document.getElementById('createBtn');
 let list = document.getElementById('list');
 
-//Faz com que a caixa de nota mude de cor
+//Faz com que a caixa de nota mude de cor e fechar o bloco no X
 createBtn.onclick = () => {
     let newNote = document.createElement('div');
     newNote.classList.add('note');
